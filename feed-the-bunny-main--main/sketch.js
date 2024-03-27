@@ -107,7 +107,6 @@ function draw()
 
   if(collide(fruit,bunny,80)==true)
   {
-   remove_rope();
    bubble.visible = false;
     World.remove(engine.world,fruit);
     fruit = null;
